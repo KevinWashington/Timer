@@ -1,0 +1,38 @@
+body{
+    margin-top: 400px;
+    text-align: center;
+    font: normal 15pt Arial;
+    background-color: rgb(202, 199, 199);
+}
+
+input#start{
+    background-color: green;
+    cursor: pointer;
+    font: normal 20pt Arial;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+    padding: 8px 40px 8px 40px;
+}
+input#pause{
+    background-color: rgb(156, 156, 156);
+    cursor: pointer;
+    font: normal 20pt Arial;
+    border: none;
+    padding: 8px 40px 8px 40px;
+}
+input#stop{
+    background-color: rgb(211, 0, 0);
+    cursor: pointer;
+    font: normal 20pt Arial;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    padding: 8px 40px 8px 40px;
+}
+
+div#timer{
+    font: normal 20pt arial;
+    color: rgb(0, 0, 0);
+    padding-top: 50px;
+}
